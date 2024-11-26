@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">About</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Services</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="container">
+          <h1>Scroll Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">Explore Tours</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="title">
+        <h2>About <span>Us</span></h2>
+      </div>
+        <div class="about-center section-center">
+          <article class="about-img">
+            <img src="hero-bcg.jpg" alt="" />
+          </article>
+          <article class="about">
+            <div class="btn-container">
+              <button class="tab-btn active" data-id="history">History</button>
+              <button class="tab-btn" data-id="vision">Vision</button>
+              <button class="tab-btn" data-id="goals">Goals</button>
+            </div>
+            <div class="about-content">
+              <div class="content active" id="history">
+                <h4>History</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero harum omnis illo quaerat nisi deleniti vitae pariatur nemo distinctio dicta rerum corporis et deserunt soluta praesentium necessitatibus expedita, sequi neque dolorem amet animi reiciendis. Consequatur odit eum, pariatur impedit iste non obcaecati ipsa, sed, repellat quidem ullam tempore culpa? Obcaecati?
+                </p>
+              </div>
+             
+              <div class="content" id="vision">
+                <h4>Vision</h4>
+                <p>
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nostrum vitae eveniet illum, numquam qui inventore, minima expedita id, ut ratione dolore animi porro voluptate? Pariatur id optio, quo cum nesciunt, officiis voluptatum ipsa debitis vitae, excepturi nemo! Tenetur maiores, accusamus eveniet ipsam omnis veniam similique voluptate dolorum eligendi. Iusto consequuntur expedita quis minima inventore! Dolor minus ullam quo dolorum.
+                </p>
+              </div>
+             
+              <div class="content" id="goals">
+                <h4>Goals</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo, autem iste, optio similique adipisci necessitatibus enim atque tempore veritatis facere mollitia quas laboriosam quos eius temporibus nobis sit obcaecati impedit. Est tempore enim quisquam consequuntur nesciunt vero quia corrupti inventore sequi natus similique nulla alias, placeat quaerat! Exercitationem, omnis quis voluptatem cumque illo aperiam?
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+    </section>
+   
+    <section id="services" class="section">
+      <div class="title">
+        <h2>Our <span>Services</span></h2>
+      </div>
+      <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-quarter">
+          <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+          <p class="w3-large">Responsive</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Passion</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Design</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Support</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+      </div>
+    </section>
+   
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>Contact<span>Us</span></h2>
+      </div>
+      <div class="container">
+        <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <label>Name</label> 
+                <input type="text" required />
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <label>Email</label> 
+                <input type="email" required />
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float:right;">
+                <label>Phone Number</label>
+                <input type="number" required /> 
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <label>Message</label>
+                <textarea required></textarea>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="btn-lrg submit-btn">Send Message</div>
+            </div>
+        </div>
+      </div>      
+    </section> 
+   
+    <footer class="section">
+      <p>
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
